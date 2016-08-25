@@ -18,6 +18,6 @@ module.exports = {
     uri:    process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
-            'mongodb://mfs:123456@ds023664.mlab.com:23664/mfs'
+            'mongodb://localhost/medsmind-dev'
   }
 };
