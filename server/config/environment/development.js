@@ -8,5 +8,5 @@ module.exports = {
         uri: 'mongodb://localhost/medsmind-dev'
     },
 
-    seedDB: true
+    seedDB: false
 };
